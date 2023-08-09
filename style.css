@@ -10,12 +10,19 @@ body{
     background-color: rgb(254, 254, 254);
 }
 
-/* #DC7C43 #DC834F #DB8E52 */
+/* #DC7C43 #DC834F #DB8E52 
+     box-shadow: 60px -16px #be6f2f;
+    box-shadow: 10px 10px 8px #888888;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: 5px 10px #be6f2f;
+
+
+*/
 header{
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color:#ad6428;
+    background-color:#be6f2f;
     position: fixed;
     height: 70px;}
 
@@ -35,7 +42,7 @@ a:hover{
     color: white;
     font-size: 19px;
 }.footer{
-    border-top: 1px solid #333;
+    border-top: 2px solid #5d5d5d;
     bottom: 0;
     left: 0;
     height: 70px;
@@ -44,21 +51,24 @@ a:hover{
 }
 
 .conteudo-principal{
-    padding: 150px 160px 40px 160px;
+    padding: 140px 6px 40px 130px;
 }
 .div1{
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(249, 249, 249);
     width: 800px;
     height: 260px;
+    border-radius: 30px;
+    box-shadow: 5px 10px #be6f2f;
+
 }
 .div2{
     display: flex;
     justify-content: center;
 }
 h1{
-   padding-left:200px;
-   padding-top: 20px;
-   padding-top: 40px;
+    padding-left:200px;
+    padding-top: 20px;
+    padding-top: 40px;
 }
 .p{
     padding-left: 25px;
@@ -68,4 +78,5 @@ h1{
 }
 .img1{
     margin-right: 15px;
-    padding-bottom: 40px;}
+    padding-bottom: 40px;
+}
