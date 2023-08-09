@@ -1,0 +1,37 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{height: 300vh;}
+nav{
+    padding-top: 100px;
+    
+}
+header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color:#DB905B  ;
+    position: fixed;
+    height: 70px;}
+
+ul{ box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black ;
+    padding: 10px;
+}
+a:hover{
+    color: white;
+    font-size: 19px;}
