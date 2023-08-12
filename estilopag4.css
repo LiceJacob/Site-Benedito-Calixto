@@ -37,7 +37,8 @@ h1::selection
 {
     background-color: #DB905B;
 }
-p{
+p
+{
     padding: 5px 0px;
 }
 p::selection{
