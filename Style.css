@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&display=swap');
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+nav ul{ box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+nav a{
+    list-style-type: none;
+    text-decoration: none;
+    list-style: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white ;
+    padding: 10px;
+    position: relative;
+}
+nav a::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: rgb(252, 252, 252);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+nav a:hover::after{
+  width: 100%;
+}
+.conteudo-principal{
+    padding: 140px 6px 40px 10px;
+    
+}
+.Divzinha
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div1{
+    background-color: rgb(250, 250, 250);
+    width: 800px;
+    height: 260px;
+    border-radius: 30px;
+    box-shadow: 5px 10px #be6f2f;
+
+}
+.div2{
+    display: flex;
+    justify-content: center;
+ 
+}
+.divbutton{
+    background-color: transparent;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    margin-top: -70px;
+    margin-left: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+button{
+    
+    padding: 5px;
+    width: 90px;
+    height: 30px;
+    color: rgb(243, 243, 243);
+    border: none;
+    background-color: #be6f2f;
+    border-radius: 9px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+button:hover{
+    background-color: #b26424;
+}
+
+h1{
+    padding-left:200px;
+    padding-top: 20px;
+    padding-top: 40px;
+}
+.p{
+    padding-left: 25px;
+    padding-right: 28px;
+    padding-top: 50px;
+    text-align: center;
+}
+.img1{
+    margin-right: 15px;
+    padding-bottom: 40px;
+}
+.footer{
+    border-top: 2px solid #5d5d5d;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    position: relative;
+    width: 100%;
+}
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+
+    padding-top: 1px;
+}
+ul{ box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+footer{
+    position: fixed;
+    border-top: 1px solid #333;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+}
+h1{
+    padding: 13px 250px;
+    color: rgb(0, 0, 0);
+}
+h1::selection{
+    background-color: #713408;
+    color: white;
+}
+p{
+    margin: 8px 130px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+p::selection{
+    background-color: #713408;
+    color: white;
+}
+body{
+   background-color: #fff7e1;
+margin-bottom: 100px;}
+nav{
+    padding-top: 100px;
+    
+}
+header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color:#DB905B  ;
+    position: fixed;
+    z-index: 2;
+    height: 70px;}
+
+ul{ box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+.LeiaMais{
+    color: black;
+}
+.head
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black ;
+    padding: 10px;
+}
+a:hover{
+    color: white;
+    font-size: 19px;}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    background-color: #fff7e1;
+    }
+.container .card{
+
+    position: relative;
+    max-width: 250px;
+    height: 205px;
+    background-color: white;
+    margin: 30px 10px;
+    padding: 20px 18px;
+    display:flex;
+    flex-direction: column;
+    transition: 0.3s ease-in-out;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    border-radius: 6px;
+}
+.container .card:hover{
+    height: 350px;
+}
+.container .card .imgb{
+    position: relative;
+}
+.container .card .imgb img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+h2{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(35, 35, 35);
+    font-size: 15px;
+}
+p{
+    margin: 15px;
+}
+.imgs{
+    width: 220px;
+}
+h1::selection
+{
+    background-color: #DB905B;
+}
+p
+{
+    padding: 5px 0px;
+}
+p::selection{
+    background-color: #DB905B;
+    color: black;
+}
+.DivDaDiv
+{
+    display: flex;
+ 
+ justify-content: space-evenly;
+ align-items: center;
+    
+}
+.Mapadiv
+{
+    display: flex;
+    border: 3px solid #DB905B;
+    height: 220px;
+    width: 220px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Img{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+.Foto
+{
+border: 3px solid #DB905B;
+margin: 8px;
+}
+.Texto
+{
+    padding-top: 30PX;
+    display: flex;
+    justify-content: center;
+}
+.Titulo
+{
+    text-align: center;
+}
