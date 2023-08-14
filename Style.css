@@ -8,13 +8,20 @@
     text-decoration: none;
     list-style-type: none;
 }
-nav ul{ box-sizing: border-box;
+.header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color:#aa5e1f;
+    position: fixed;
+    height: 70px;}
+.nav ul{ box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-top: 25px;
 }
-nav a{
+.nav, .a{
     list-style-type: none;
     text-decoration: none;
     list-style: none;
@@ -24,7 +31,7 @@ nav a{
     padding: 10px;
     position: relative;
 }
-nav a::after{
+.nav .a::after{
     content: " ";
     width: 0%;
     height: 2px;
@@ -35,7 +42,7 @@ nav a::after{
     transition: 0.5s ease-in-out;
 }
 
-nav a:hover::after{
+.nav .a:hover::after{
   width: 100%;
 }
 .conteudo-principal{
@@ -187,9 +194,7 @@ ul{ box-sizing: border-box;
     color: black ;
     padding: 10px;
 }
-a:hover{
-    color: white;
-    font-size: 19px;}
+
 .container {
     display: flex;
     justify-content: center;
